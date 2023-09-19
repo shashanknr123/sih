@@ -6,50 +6,116 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="101dp"
+        android:layout_height="57dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="shashank"
+        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.654" />
+        app:layout_constraintVertical_bias="0.196" />
 
-    <EditText
-        android:id="@+id/editTextDate"
+    <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="date"
+        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.418" />
+        app:layout_constraintVertical_bias="0.196" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="217dp"
-        android:layout_height="144dp"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="104dp"
+        android:layout_height="30dp"
+        android:text="Device 1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.052"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        app:layout_constraintVertical_bias="0.319" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="online"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="158dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:text="63%" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="124dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="124dp"
+        android:layout_height="55dp"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="404dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="201dp"
+        android:layout_height="169dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="489dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="122dp"
+        android:layout_height="124dp"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="489dp">
+
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
